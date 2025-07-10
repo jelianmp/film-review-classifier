@@ -62,7 +62,8 @@ film-review-classifier/
 ⚠️ **Nota sobre los datos:**  
 El dataset no está incluido en el repositorio por razones de tamaño, pero todas las transformaciones y pasos están desarrollados completamente en el notebook.
 
-📊 Resultados
+📊 Resultados:
+
 Se logró el objetivo del proyecto, obtener la métrica F1 con un umbral mínimo de 0.85
 
 Los modelos basados en árboles (Random Forest y XGBoost) tienden a ser más permisivos al clasificar reseñas ambiguas o neutras como positivas, mientras que la regresión logística es más conservadora.
